@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="I3i-Mi-5Wf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aPg-j7-won">
+                                <rect key="frame" x="32" y="198" width="350" height="500"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ST. FRANCIS DE SALES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="21" translatesAutoresizingMaskIntoConstraints="NO" id="ctH-HP-Icb">
+                                        <rect key="frame" x="12" y="17.999999999999996" width="326" height="32.666666666666657"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                        <color key="textColor" red="0.0078431372550000003" green="0.30980392159999998" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COLLEGE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="21" translatesAutoresizingMaskIntoConstraints="NO" id="R6R-lv-GAH">
+                                        <rect key="frame" x="80" y="50.666666666666657" width="190" height="32.333333333333343"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                        <color key="textColor" red="0.0078431372550000003" green="0.30980392159999998" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Electronic City, Bengaluru" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="21" translatesAutoresizingMaskIntoConstraints="NO" id="oX3-gY-6aH">
+                                        <rect key="frame" x="8" y="450" width="334" height="32"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <color key="textColor" red="0.0078431372550000003" green="0.30980392159999998" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99215686274509807" green="0.99215686274509807" blue="0.99215686274509807" alpha="0.68000000000000005" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="R6R-lv-GAH" firstAttribute="leading" secondItem="aPg-j7-won" secondAttribute="leading" constant="80" id="0kv-JO-7aJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="oX3-gY-6aH" secondAttribute="trailing" constant="8" id="79g-n1-nCv"/>
+                                    <constraint firstAttribute="trailing" secondItem="R6R-lv-GAH" secondAttribute="trailing" constant="80" id="NW8-Pt-eaQ"/>
+                                    <constraint firstItem="ctH-HP-Icb" firstAttribute="leading" secondItem="aPg-j7-won" secondAttribute="leading" constant="12" id="Yr5-WF-aMK"/>
+                                    <constraint firstAttribute="bottom" secondItem="oX3-gY-6aH" secondAttribute="bottom" constant="18" id="a2I-f6-3Mv"/>
+                                    <constraint firstItem="ctH-HP-Icb" firstAttribute="top" secondItem="aPg-j7-won" secondAttribute="top" constant="18" id="dTb-Pr-Q6K"/>
+                                    <constraint firstItem="R6R-lv-GAH" firstAttribute="top" secondItem="ctH-HP-Icb" secondAttribute="bottom" id="g0e-we-AVp"/>
+                                    <constraint firstAttribute="trailing" secondItem="ctH-HP-Icb" secondAttribute="trailing" constant="12" id="mva-tk-x50"/>
+                                    <constraint firstItem="oX3-gY-6aH" firstAttribute="leading" secondItem="aPg-j7-won" secondAttribute="leading" constant="8" id="wQ7-nR-lFx"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="kST-ni-TnR">
+                                <rect key="frame" x="64" y="308" width="286" height="300"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="I3i-Mi-5Wf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="516-po-8mb"/>
+                            <constraint firstItem="kST-ni-TnR" firstAttribute="centerY" secondItem="aPg-j7-won" secondAttribute="centerY" constant="10" id="B02-be-B2Q"/>
+                            <constraint firstItem="aPg-j7-won" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="NBi-Do-L3q"/>
+                            <constraint firstItem="kST-ni-TnR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="VNI-3n-XhW"/>
+                            <constraint firstAttribute="bottom" secondItem="I3i-Mi-5Wf" secondAttribute="bottom" id="WUS-yZ-qE0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aPg-j7-won" secondAttribute="trailing" constant="32" id="bEP-Kl-p9r"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kST-ni-TnR" secondAttribute="trailing" constant="64" id="bzB-r2-EW0"/>
+                            <constraint firstItem="I3i-Mi-5Wf" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="pLv-aH-iEN"/>
+                            <constraint firstItem="aPg-j7-won" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="rI0-yd-YEn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I3i-Mi-5Wf" secondAttribute="trailing" id="tmy-mD-c5P"/>
+                            <constraint firstItem="kST-ni-TnR" firstAttribute="height" secondItem="aPg-j7-won" secondAttribute="height" multiplier="150:250" id="ujf-3X-eoH"/>
+                            <constraint firstItem="aPg-j7-won" firstAttribute="height" secondItem="I3i-Mi-5Wf" secondAttribute="height" multiplier="250:448" id="xhJ-xq-DQ0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="559.82142857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launch_image" width="554.33331298828125" height="400"/>
+        <image name="logo" width="375" height="352.5"/>
+    </resources>
+</document>

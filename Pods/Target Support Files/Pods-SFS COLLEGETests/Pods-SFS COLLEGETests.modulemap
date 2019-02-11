@@ -1,0 +1,6 @@
+framework module Pods_SFS_COLLEGETests {
+  umbrella header "Pods-SFS COLLEGETests-umbrella.h"
+
+  export *
+  module * { export * }
+}
