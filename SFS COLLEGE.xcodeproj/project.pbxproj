@@ -791,7 +791,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "SFS COLLEGE/SFS COLLEGE.entitlements";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = D245C92AL4;
 				INFOPLIST_FILE = "SFS COLLEGE/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -800,8 +801,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.integro.SFS-COLLEGE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Distribution SFS College";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -811,7 +813,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "SFS COLLEGE/SFS COLLEGE.entitlements";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = D245C92AL4;
 				INFOPLIST_FILE = "SFS COLLEGE/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -820,8 +823,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.integro.SFS-COLLEGE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Distribution SFS College";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
