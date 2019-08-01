@@ -26,7 +26,7 @@ class NewsDetailedViewController: UIViewController {
     }
     
     private func loadActivityController(id: String) {
-        let url = URL(string: "http://breadsdonations.com/newshare.php?id=\(id)")!
+        let url = URL(string: "http://sfscollege.in/sfscolg_app/news.php?id=\(id)")!
         activityController = UIActivityViewController(activityItems: [url], applicationActivities: nil)
         activityController.excludedActivityTypes = [.print, .copyToPasteboard, .assignToContact, .saveToCameraRoll, .addToReadingList]
     }

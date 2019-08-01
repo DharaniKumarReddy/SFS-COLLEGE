@@ -8,6 +8,7 @@ def list_of_library
     pod 'SlideMenuControllerSwift'
     pod 'Firebase/Core'
     pod 'Firebase/Messaging'
+    pod 'GoogleSignIn'
 end
 
 target 'SFS COLLEGE' do

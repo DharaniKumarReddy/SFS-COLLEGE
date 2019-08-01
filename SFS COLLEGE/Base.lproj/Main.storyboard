@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYr-Ac-F5y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYr-Ac-F5y">
     <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -2973,19 +2973,19 @@
         <image name="facebook" width="214.66667175292969" height="214.66667175292969"/>
         <image name="gallery" width="214.66667175292969" height="214.66667175292969"/>
         <image name="home" width="214.66667175292969" height="214.66667175292969"/>
-        <image name="home_background" width="279" height="278.25"/>
+        <image name="home_background" width="124" height="123.66666412353516"/>
         <image name="launch_image" width="1242" height="896"/>
         <image name="left_arrow" width="214.66667175292969" height="214.66667175292969"/>
-        <image name="logo" width="375" height="352.5"/>
-        <image name="magazine" width="135" height="110.25"/>
+        <image name="logo" width="166.66667175292969" height="156.66667175292969"/>
+        <image name="magazine" width="60" height="49"/>
         <image name="management" width="214.66667175292969" height="214.66667175292969"/>
         <image name="menu" width="42.666667938232422" height="42.666667938232422"/>
         <image name="news" width="217.33332824707031" height="217.33332824707031"/>
         <image name="newsletter" width="214.66667175292969" height="214.66667175292969"/>
         <image name="notification" width="214.66667175292969" height="214.66667175292969"/>
         <image name="phone" width="214.66667175292969" height="214.66667175292969"/>
-        <image name="principal" width="408.75" height="348.75"/>
-        <image name="sfs" width="288" height="61.919998168945312"/>
+        <image name="principal" width="181.66667175292969" height="155"/>
+        <image name="sfs" width="133.33332824707031" height="28.666666030883789"/>
         <image name="staff" width="214.66667175292969" height="214.66667175292969"/>
         <image name="twitter" width="214.66667175292969" height="214.66667175292969"/>
         <image name="world" width="214.66667175292969" height="214.66667175292969"/>
